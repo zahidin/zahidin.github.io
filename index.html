@@ -2,18 +2,251 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Special for my bi</title>
+    <link rel="icon" type="image/png" href="http://i.imgur.com/28NAoWQ.png" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="googlebot" content="index,follow,noodp,noydir" />
+    <meta content="follow, all" name="Googlebot-Image" />
+    <meta content="follow, all" name="msnbot" />
+    <meta content="follow, all" name="alexabot" />
+    <meta content="follow, all" name="Slurp" />
+    <meta content="follow, all" name="ZyBorg" />
+    <meta content="follow, all" name="Scooter" />
+    <meta name="description" content="Puisi Special for My Bi" />
+    <link rel="canonical" href="http://www.zone-h.org/" />
+    <link rel="next" href="http://www.zone-h.org/" />
     <link
+      href="http://fonts.googleapis.com/css?family=Quicksand"
       rel="stylesheet"
-      href="https://pagecdn.io/lib/font-awesome/5.10.0-11/css/all.min.css"
-      integrity="sha256-p9TTWD+813MlLaxMXMbTA7wN/ArzGyW/L7c5+KkjOkM="
-      crossorigin="anonymous"
+      type="text/css"
     />
-    <title>Tools for make easy development</title>
-  </head>
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sebatas Aksara" />
+    <meta property="og:description" content="Special for My Bi" />
+    <meta property="og:url" content="https://www.instagram.com/didinspecialist/" />
+    <meta property="og:site_name" content="Puisi Sebatas Aksara" />
+    <meta property="fb:admins" content="4" />
+    <meta property="og:image" content="http://i.imgur.com/AsMpLQH.jpg" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Quicksand"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem;
+        flex-direction: column;
+      }
+      .container > h1 {
+        margin-top: 3rem;
+        margin-bottom: 0rem;
+        font-family: 'Quicksand';
+        font-size: xxx-large;
+      }
+      .container > .puisi {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1rem;
+      }
+      .container > .puisi > p {
+        font-family: 'Quicksand';
+        padding-left: 6rem;
+        text-align: justify;
+      }
 
+      .Modal {
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+        width: 100%;
+        height: 100%;
+        padding-top: 100px;
+        background-color: black;
+        background-color: rgba(0, 0, 0, 0.4);
+        -webkit-transition: 0.5s;
+        transition: all 0.3s linear;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1040;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(15px);
+        overflow: hidden;
+      }
+      .Modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border-radius: 4px;
+        max-width: 300px;
+        height: 12rem;
+      }
+      .Modal-content > p {
+        font-family: 'Quicksand';
+        font-weight: 800;
+      }
+      .Modal-content > button {
+        font-family: 'Quicksand';
+        background-color: #4299e1;
+        border-color: #2b6cb0;
+        font-weight: 800;
+        border-radius: 0.25rem;
+        border-bottom-width: 4px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        color: #fff;
+        font-size: 0.875rem;
+      }
+      .ModalOpen {
+        overflow: hidden;
+      }
+      .is-hidden {
+        display: none;
+      }
+      .is-visuallyHidden {
+        opacity: 0;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .container {
+          padding: 0.5rem;
+          align-items: inherit;
+        }
+        .container > .puisi > p {
+          font-family: 'Quicksand';
+          padding-left: 0rem;
+        }
+        .container > h1 {
+          margin-top: 3rem;
+          margin-bottom: 0rem;
+          font-family: 'Quicksand';
+          font-size: 2rem;
+          font-weight: bold;
+        }
+        .Modal {
+          display: block;
+          position: fixed;
+          left: 0;
+          top: 0;
+          z-index: 9999;
+          height: 100%;
+          width: 100%;
+          padding-top: 100px;
+          background-color: black;
+          background-color: rgba(0, 0, 0, 0.4);
+          -webkit-transition: 0.5s;
+          transition: all 0.3s linear;
+
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 1040;
+          background-color: rgba(0, 0, 0, 0.4);
+          backdrop-filter: blur(15px);
+          overflow: hidden;
+        }
+      }
+    </style>
+  </head>
   <body>
-    <section id="root"></section>
-  <script type="text/javascript" src="assets/js/main.da20af29424d1ba64fbb.js"></script></body>
+    <!-- Modal -->
+    <div id="myModal" class="Modal">
+      <!-- Modal content -->
+      <div class="Modal-content">
+        <p>
+          Puisi ini aku bikin untuk kamu jadi ketika kamu baca ini pliss jangan sedih ya, aku
+          sebenernya gamau kamu sedih juga
+          <br /><br />
+          Don't be sad okay :)
+          <br /><br />
+        </p>
+        <button id="closeModal" onclick="playSound()">This is only for you bi</button>
+      </div>
+    </div>
+    <div class="container">
+      <img src="http://i.imgur.com/oTMUp8f.gif" />
+      <h1>Sebatas Aksara</h1>
+      <div class="puisi">
+        <p>
+          Di matamu, aku lihat bayang sendu<br />
+          Ada lubang yang menggambarkan cinta semu<br />
+          Seseorang yang kini membersamaimu<br />
+          Kian redup seakan tak berpaham<br />
+          Bagaimana menerangi cahaya cinta yang hampir padamu<br />
+          <br />
+          Sudah lama aku menguras energi<br />
+          Demi membuatmu peka lagi mengerti<br />
+          Namun, aku sadar diri<br />
+          Kamu masih dalam bagian ceritanya<br />
+          Pada seseorang yang berusaha buatmu bahagia<br />
+          <br />
+          Mengenalmu, timbul rasa suka tak terkira<br />
+          Bersemayam lama dalam ruang hampa<br />
+          Berharap rasa ini dapat kamu sambut<br />
+          Hingga hati saling tertaut<br />
+          <br />
+          Meskipun itu... Cinta tetaplah cinta<br />
+          Suka hanya sebatas rasa<br />
+          Baik kita bersamanya, maupun tak bersamanya<br />
+          Cinta, kadang datang dalam bentuk pendampingan<br />
+          Kadang harus datang dalam bentuk pengikhlasan<br />
+          <br />
+          Jika nyatanya sampai akhir...<br />
+          Pilihan hati tak sesuai dengan pilihan takdir<br />
+          Dan lukisan membahagiakanmu belum terukir<br />
+          Pilihan satu-satunya dengan sadar<br />
+          Ridho dengan siapapun kamu berlayar<br />
+          <br />
+          Aksara cinta untukmu telah sampai<br />
+          Tak peduli kau dengar ataupun abai<br />
+          Yang aku tahu, ini sudah ku ungkapkan<br />
+          Apapun yang akan terjadi kemudian<br />
+          Telah lama aku bersikap dewasa...<br />
+          <br />
+
+          ---------------------------------<br />
+          | From Zahidin To My Bi 🤍 |<br />
+          ---------------------------------<br />
+        </p>
+        <!-- <pre>
+        
+        
+        
+            # Untuk Temanku XII-RPL #  
+            Kenang - Kenangan Dari Ku 
+            Mungkin Kita Akan Berpisah Tapi Teman Teman Ku AKan Selalu Menjadi Teman Terbaiku 
+            Sukses Terus Teman Ku !!!
+        
+            -----------------------------------
+            |  From Zahidin To My Bi  🤍  |
+            -----------------------------------
+            </pre
+        > -->
+      </div>
+    </div>
+    <audio src="song.mp3" id="my_audio" loop="loop" autoplay="autoplay"></audio>
+    <script type="text/javascript">
+      var btnClose = document.getElementById('closeModal');
+      var modal = document.getElementById('myModal');
+
+      function playSound() {
+        document.getElementById('my_audio').play();
+        modal.className = 'Modal is-hidden is-visuallyHidden';
+      }
+    </script>
+  </body>
 </html>
